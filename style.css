@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    width: 100%;
     background: radial-gradient(circle, #fff, #ccc) ;
     background-image: url(./images/wallpaper.jpg);
     font-family: cursive, sans-serif;
