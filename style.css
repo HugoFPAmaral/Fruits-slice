@@ -96,6 +96,7 @@ html{
     left: 145px;
     z-index: 2;
     display: none;
+    cursor: url(images/sword.png), auto; 
 }
 
 .fruit{
