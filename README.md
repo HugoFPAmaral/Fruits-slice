@@ -1,2 +1,5 @@
 # Fruits-slice
-A simple fruits slicer game using html/css and js
+
+This is a fruit slicing game. It is built using HTML, CSS and JQuery.
+Fruits will drop down from above, use your mouse cursor to slice them, but be careful with the bomb!!
+
