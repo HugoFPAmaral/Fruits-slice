@@ -2,6 +2,6 @@
 
 <li>This is a fruit slicing game. It is built using HTML, CSS and JQuery.</li>
 <li>Fruits will drop down from above, use your mouse cursor to slice them, but be careful with the bomb!!</li>
-<li><a href="ttps://hugofpamaral.github.io/Fruits-slice/" >Play here</a></li>
+<li><a href="https://hugofpamaral.github.io/Fruits-slice/" >Play here</a></li>
 
 
