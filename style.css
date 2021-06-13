@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, #fff, #ccc) ;
+}
+
+#container{
+    height: 600px;
+    width: 750px;
+    background-color: #9DD2EA;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #009de4;
+    -moz-box-shadow: 0px 4px 4px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 4px 0px #009de4;
+    position: relative;
+}
+
+#score{
+    background-color: #F1FF92;
+    color: #888E5F;
+    padding: 10px;
+    position: absolute;
+    left: 700px;
+    box-shadow: 0px 4px 4px #9da853;
+    -moz-box-shadow: 0px 4px 4px #9da853;
+    -webkit-box-shadow: 0px 4px 4px #9da853;
+    border-radius: 10px;
+}
+
+#numberOfLifes{
+    width: 80px;
+    height: 20px;
+    background-color: #F1FF92;
+    color: #888E5F;
+    padding: 10px;
+    position: absolute;
+    box-shadow: 0px 4px 4px #9da853;
+    -moz-box-shadow: 0px 4px 4px #9da853;
+    -webkit-box-shadow: 0px 4px 4px #9da853;
+    border-radius: 10px;
+    display: none;
+}
+
+.life{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+#board{
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: 50px auto 10px auto;
+    text-align: center;
+    box-shadow: 0px 4px 4px #535aa8;
+    -moz-box-shadow: 0px 4px 4px #535aa8;
+    -webkit-box-shadow: 0px 4px 4px #535aa8;
+    position: relative;
+    overflow: hidden;
+}
+
+#instruction{
+    width: 450px;
+    height: 50px;
+    background-color: #B481D9;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px 4px #8153a8;
+}
+
+#startreset{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2) ;
+    -moz-box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2) ;
+    -webkit-box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2) ;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+#gameover{
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#F3CA6B, #F3706C);
+    color: white;
+    font-size: 2.5EM;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 170px;
+    left: 145px;
+    z-index: 2;
+    display: none;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+}

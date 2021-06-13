@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fruit game</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="score">Score: <span id="scorevalue"></span></div>
+        <div id="numberOfLifes">
+
+        </div>
+        <div id="board">
+            <img id="fruit" class="fruit">
+        </div>
+        <div id="instruction">Catch fruits</div>
+        <div id="startreset">Start game</div>
+        <div id="gameover"></div>
+    </div>
+
+    <audio id="slicesound">
+        <source src="sound/slicefruit.mp3"></source>
+        <source src="sound/slicefruit.ogg"></source>
+    </audio>
+    <audio id="bombsound">
+        <source src="sound/bombsound.mp3"></source>
+        <source src="sound/bombsound.ogg"></source>
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js">
+    </script>
+    <script src="js.js"></script>
+</body>
+</html>
