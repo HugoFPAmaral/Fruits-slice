@@ -13,7 +13,7 @@ $(function (){
 $("#startreset").click(function(){
     
     if(playing){
-        
+       
         //reload page
         location.reload();    
          
@@ -92,7 +92,7 @@ function startGame(){
                 playing= false;
                 $("#numberOfLifes").empty();
                 $("#gameover").show();
-                $("#gameover").html("<p>Game over!</p><p>Your score is " + score + ".</p>");
+                $("#gameover").html("<p>Game over!</p><p>Your score is " + score + "</p>");
                 $("#startreset").html("Start game");
                 
                 stopAction();
